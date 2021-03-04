@@ -1,3 +1,7 @@
+:root {
+    background-color: rgb(245, 245, 220);
+}
+
 * {
     box-sizing: border-box;
     text-decoration: none;
@@ -11,12 +15,12 @@
 
 .nav-container {
     width:100%;
-    align-items: left;
 }
 
 .nav-item {
     padding-left: 15px;
     font-family: 'Cinzel', serif;
+    text-shadow: 1px 1px black;
 }
 
 .header-main {
@@ -25,9 +29,10 @@
 }
 
 h1 {
-    color: rgb(151, 160, 223);
+    color: rgb(223, 197, 132);
     text-shadow: 1px 1px azure;
     font-family: 'Cinzel', serif;
+    text-align: center;
 }
 
 .fas {
