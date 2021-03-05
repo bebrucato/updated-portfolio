@@ -1,5 +1,5 @@
 :root {
-    background-image: url(https://cdn-0.idownloadblog.com/wp-content/uploads/2016/03/Black-Home-Screen-By-Jason-Zigrino.png);
+    
 }
 
 * {
@@ -8,18 +8,8 @@
  }
 
  body {
-    display: flex;
-    margin: 1px 150px 1px 150px;
     font-family: 'Playfair Display', serif;
-}
-
-.nav-container {
-    width:100%;   
-}
-
-.navbar {
-    opacity: 0.6;
-    padding: 15px;
+    background-image: url(https://cdn-0.idownloadblog.com/wp-content/uploads/2016/03/Black-Home-Screen-By-Jason-Zigrino.png);
 }
 
 .nav-item {
@@ -28,9 +18,8 @@
     text-shadow: 1px 1px black;
 }
 
-.header-main {
-    background-image: url("https://wallpapercave.com/wp/wp3377140.jpg");
-    padding: 15px;
+.card {
+    font-family: 'Cinzel', serif;
 }
 
 h1 {
@@ -44,4 +33,22 @@ h1 {
     margin-right: 5px;
 }
 
+.leo {
+    max-height: 2000px;
+    max-width: 200px;
+    border-radius: 50%;
+    opacity: 0.9; 
+    filter: contrast(120%); 
+    z-index: -1;
+}
+
+.about-text {
+    color:antiquewhite
+}
+
+.project-1, .project-2, .project-3 {
+    max-width: 250px;
+    max-height: 250px;
+    margin:10px;
+}
 
