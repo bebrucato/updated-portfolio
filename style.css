@@ -12,21 +12,49 @@
     background-image: url(https://cdn-0.idownloadblog.com/wp-content/uploads/2016/03/Black-Home-Screen-By-Jason-Zigrino.png);
 }
 
+.nbar {
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+
 .nav-item {
-    padding-left: 20px;
-    font-family: 'Cinzel', serif;
+    padding-left: 10px;
+    font-family: 'Offside', cursive;
     text-shadow: 1px 1px black;
+    color:rgb(161, 147, 64);
+    margin-top: 10px;
 }
 
 .card {
-    font-family: 'Cinzel', serif;
+    max-height: 300px;
+    max-width: 300px;
+    overflow: hidden;
+    font-size: 10px;
+    margin: 10px;
+    margin-top: 5%;
+    text-align: center;
+    background-color: black;
+    color: white;
 }
 
-h1 {
-    color: rgb(223, 197, 132);
-    text-shadow: 1px 1px azure;
+.about-me {
+    color:rgb(186, 168, 69);
+    text-shadow: 3px 3px rgb(15, 15, 15);
     font-family: 'Cinzel', serif;
     text-align: center;
+    font-family: 'Nosifer', cursive;
+    font-size: 200%;
+    margin: 10px;
+}
+
+.nav-logo {
+    text-align: left;
+    font-size: 270%;
+    color: rgb(186, 168, 69);
+    font-family: 'Nosifer', cursive;
+    margin-top: 10px;
+    margin-right: 10%;
 }
 
 .fas {
@@ -34,21 +62,26 @@ h1 {
 }
 
 .leo {
-    max-height: 2000px;
-    max-width: 200px;
+    max-height: 250px;
+    max-width: 250px;
     border-radius: 50%;
-    opacity: 0.9; 
     filter: contrast(120%); 
-    z-index: -1;
+    align-items: center;
+    margin-left: 45px;
+    margin-top: 10px;
 }
 
 .about-text {
-    color:antiquewhite
+    color:rgb(161, 147, 64);
+    background-color: rgb(	255, 255, 255, 0.5);
+    border-radius: 5px;
+    font-family: 'Offside', cursive;
+    margin: 10px;
+    text-align: center;
 }
 
-.project-1, .project-2, .project-3 {
-    max-width: 250px;
-    max-height: 250px;
-    margin:10px;
-}
 
+.marble {
+background-image: url(https://ae01.alicdn.com/kf/HTB1CVo.atzvK1RkSnfoq6zMwVXad/HUAYI-Customized-backdrop-for-photographic-studio-wedding-invitation-marble-professional-background-photobooth-prop-XT-7561.jpg_Q90.jpg_.webp);
+max-height: 100%;
+}
