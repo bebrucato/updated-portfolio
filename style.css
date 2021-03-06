@@ -79,11 +79,23 @@
 
 .nav-logo {
     text-align: left;
-    font-size: 270%;
-    color: rgb(186, 168, 69);
-    font-family: 'Nosifer', cursive;
+    font-size: 240%;
+    margin-right: 15%;
+    margin-bottom: 25px;
     margin-top: 10px;
-    margin-right: 20px;
+    font-family: 'Nosifer', cursive;
+    text-align: center;
+    color: #fcedd8;
+    font-weight: 700;
+  text-shadow: 5px 5px 0px #eb452b, 
+              10px 10px 0px #efa032, 
+              15px 15px 0px #46b59b, 
+              20px 20px 0px #017e7f, 
+              25px 25px 0px #052939, 
+              30px 30px 0px #c11a2b, 
+              35px 35px 0px #c11a2b, 
+              40px 40px 0px #c11a2b, 
+              45px 45px 0px #c11a2b;
 }
 
 .project-header {
@@ -143,6 +155,7 @@
 background-image: url(https://ae01.alicdn.com/kf/HTB1CVo.atzvK1RkSnfoq6zMwVXad/HUAYI-Customized-backdrop-for-photographic-studio-wedding-invitation-marble-professional-background-photobooth-prop-XT-7561.jpg_Q90.jpg_.webp);
 max-height: 100%;
 padding: 25px;
+margin-top: 20px;
 }
 
 .contact-info {
