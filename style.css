@@ -27,16 +27,31 @@
 }
 
 .card {
-    max-height: 300px;
-    max-width: 300px;
+    max-height: 500px;
+    max-width: 400px;
     overflow: hidden;
-    font-size: 10px;
+    font-size: 13px;
     margin: 10px;
     margin-top: 5%;
     margin-bottom: 5%;
     text-align: center;
     background-color: black;
     color: white;
+    font-family: 'Fjalla One', sans-serif;
+}
+
+.card-title {
+    color: rgb(161, 147, 64);
+    font-weight: 700;
+    padding: 5px;    
+}
+
+.pBtn1 { 
+    margin-top: 33%;
+}
+
+.pBtn2 {
+    margin-top: 47%;
 }
 
 .about-me {
