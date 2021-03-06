@@ -29,7 +29,7 @@
 .card {
     max-height: 500px;
     max-width: 400px;
-    overflow: hidden;
+    overflow: none;
     font-size: 13px;
     margin: 10px;
     margin-top: 2%;
@@ -145,18 +145,36 @@ padding: 25px;
 }
 
 @media screen and (max-width: 576px) {
-    body,.nbar, .marble, .about-back, .intro, .b2, .comp, .quill, .leo, .about-me {
+    body,.nbar, .marble, .about-back, .intro, .b2, .comp, .quill, .leo, .about-me, .project-header, .card .about-text, .project-1, .project-2,.project-3, .project{
         display: flex;
-        flex-direction: column;
+        flex-wrap: wrap;
+        width: 100%;
+
+    }
+    .card .card-body .card-title, .card-text{
+        display: flex;
+        justify-content: center;
+        padding: 5px;
+        flex-wrap: wrap;
+        font-size: 8px;
         width: 100%;
     }
   }
 
   @media screen and (max-width: 768px) {
-    body,.nbar, .marble, .about-back, .intro, .b2, .comp, .quill, .leo, .about-me {
+    body,.nbar, .marble, .about-back, .intro, .b2, .comp, .quill, .leo, .about-me, .project-header, .card, .about-text, .project-1, .project-2,.project-3, .project{
         display: flex;
-        flex-direction: column;
+        flex-wrap: wrap;
       width: 75%;
+    }
+  
+    .card .card-body .card-title .card-text{
+        display: flex;
+        justify-content: center;
+        padding: 5px;
+        flex-wrap: wrap;
+        font-size: 10px;
+        width: 100%;
     }
   }
 
