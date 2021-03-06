@@ -32,8 +32,8 @@
     overflow: hidden;
     font-size: 13px;
     margin: 10px;
-    margin-top: 5%;
-    margin-bottom: 5%;
+    margin-top: 2%;
+    margin-bottom: 2%;
     text-align: center;
     background-color: black;
     color: white;
@@ -83,6 +83,14 @@
     font-family: 'Nosifer', cursive;
     margin-top: 10px;
     margin-right: 20px;
+}
+
+.project-header {
+    font-size: 200%;
+    color: rgb(186, 168, 69);
+    font-family: 'Nosifer', cursive;
+    text-align: center;
+    text-shadow: 3px 3px rgb(15, 15, 15);
 }
 
 .fas {
@@ -136,4 +144,19 @@ max-height: 100%;
 padding: 25px;
 }
 
+@media screen and (max-width: 576px) {
+    body,.nbar, .marble, .about-back, .intro, .b2, .comp, .quill, .leo, .about-me {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+  }
+
+  @media screen and (max-width: 768px) {
+    body,.nbar, .marble, .about-back, .intro, .b2, .comp, .quill, .leo, .about-me {
+        display: flex;
+        flex-direction: column;
+      width: 75%;
+    }
+  }
 
