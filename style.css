@@ -169,7 +169,7 @@ margin-top: 20px;
     letter-spacing: 2px;
 }
 
-.location, .phone, .email {
+.location, .phone, .email, .links {
     margin: 5%;
     background-color: rgb(15, 15, 15);
     padding-bottom: 5%;
@@ -185,47 +185,48 @@ margin-top: 20px;
     margin-left: 25px;
 }
 
+.link, .git{
+    max-width: 250px;
+    max-height: 250px;
+    align-items: center;
+}
+
 .contact-info a {
     color:rgb(255,255,255);
     font-size: 150%;
-    margin-left: 30%;
+    margin-left: 24%;
     font-family: 'Fjalla One', sans-serif;
     margin-top: 10%;
 }
 
 
 
-@media screen and (max-width: 576px) {
-    body,.nbar, .marble, .about-back, .intro, .b2, .comp, .quill, .leo, .about-me, .project-header, .card .about-text, .project-1, .project-2,.project-3, .project{
-        display: flex;
-        flex-wrap: wrap;
-        width: 100%;
-
-    }
-    .card .card-body .card-title, .card-text{
-        display: flex;
-        justify-content: center;
-        padding: 5px;
-        flex-wrap: wrap;
-        font-size: 8px;
-        width: 100%;
+@media only screen and (min-width: 768px) {
+    .col-3 {width: 25%;}
+    .col-4 {width: 33.33%;}
+    .col-12 {width: 100%;}
+    body {
+        max-width: 100%;
     }
   }
 
-  @media screen and (max-width: 768px) {
-    body,.nbar, .marble, .about-back, .intro, .b2, .comp, .quill, .leo, .about-me, .project-header, .card, .about-text, .project-1, .project-2,.project-3, .project{
-        display: flex;
-        flex-wrap: wrap;
-      width: 75%;
-    }
+  @media only screen and (max-width: 600px)  {
+  .intro, .about-back, .about-me, .project-header, .nav-logo h2{
+    width: 50%;    
+}
+
+.b2, .comp, .quill, .leo, .burb, .link, .git, .location, .links, .phone, .email, a{
+    width: 75%;
+}
+.container {
+width: 100%;
+}
+
+.card {
+    overflow: scroll;
+}
+}
+
+
+
   
-    .card .card-body .card-title .card-text{
-        display: flex;
-        justify-content: center;
-        padding: 5px;
-        flex-wrap: wrap;
-        font-size: 10px;
-        width: 100%;
-    }
-  }
-
